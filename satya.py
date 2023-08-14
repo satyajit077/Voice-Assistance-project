@@ -1,17 +1,17 @@
 #Aisha the assistant
-import pyttsx3
-from datetime import datetime
-import wikipedia
-import webbrowser
-import time
-import os
-import re
-from random import randint
-import smtplib
-import speech_recognition as sr
-import urllib
-import playsound
-import pyjokes
+import pyttsx3  # text to speech Convertion  library in python .
+from datetime import datetime  #Combination of Date & Time.
+import wikipedia  # it is a python Library that makes it easy to access and parse data from Wikipedia.
+import webbrowser #it provides a high-level interface to allow displaying web-based documents to users.
+import time #This module provides various time-related functions.
+import os #The OS module in Python provides functions for interacting with the operating system. 
+import re #used to perform Regular Expression Task.
+from random import randint # used to generating random integers
+import smtplib #for sending emails using the Simple Mail Transfer Protocol (SMTP).
+import speech_recognition as sr  #Library for performing speech recognition, with support for several engines and APIs, online and offline.
+import urllib #HTTP library with thread-safe connection pooling, file post, and more.
+import playsound #it is cross platform, single function module with no dependencies for playing sounds.
+import pyjokes # IT GIVES One line jokes for programmers
 from urllib.request import urlopen
 
 
